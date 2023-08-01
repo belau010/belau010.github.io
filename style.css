@@ -1,0 +1,39 @@
+.title-container{
+    width: 100%;
+    text-align: center;
+    background: rgb(0, 100, 139);
+    color:aliceblue;
+    font-size: 32px;
+}
+
+nav {
+    width: calc(100% - 16px);
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(255, 185, 127);
+    padding: 8px;
+}
+
+body {
+    width: 880px;
+    margin: auto;
+    background-image: url("background.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+main {
+    padding-top: 16px;
+    line-height: 48px;
+    background-color: rgba(255,255,255,.8);
+}
+table, th, td {
+    border: 1px solid;
+}
+
+.centered-text {
+    text-align: center;
+}
+  

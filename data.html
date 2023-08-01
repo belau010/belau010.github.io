@@ -1,0 +1,461 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="title-container">Vet Clinic Database</div>
+    <nav>
+      <a href="./index.html">ABOUT US</a>
+      <a href="./functionality.html">FUNCTIONALITY</a>
+      <a>DATA</a>
+    </nav>
+    <main>
+        <div class="centered-text">
+            Here is sample data from our database as discussed in the FUNCTIONALITY tab.
+        </div>
+        <br/>
+      <table>
+        <caption>
+            CLIENT_OWNER
+        </caption>
+        <tr>
+          <th>accountNumber</th>
+          <th>firstName</th>
+          <th>lastName</th>
+          <th>phoneNumber</th>
+          <th>email</th>
+          <th>ccNumber</th>
+          <th>streetAddress</th>
+          <th>city</th>
+          <th>state</th>
+          <th>zip</th>
+        </tr>
+        <tr>
+          <td>1</td>
+          <td>Tracey</td>
+          <td>Anderson</td>
+          <td>651-351-8970</td>
+          <td>t.anderson@gmail.com</td>
+          <td>xxxx xxxx xxxx 4203</td>
+          <td>956 Victoria Street</td>
+          <td>St. Paul</td>
+          <td>MN</td>
+          <td>55102</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>Roger</td>
+            <td>Banks</td>
+            <td>612-298-8661</td>
+            <td>bankman2@gmail.com</td>
+            <td>xxxx xxxx xxxx 5561</td>
+            <td>1450 Lexington Ave.</td>
+            <td>St. Paul</td>
+            <td>MN</td>
+            <td>55103</td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>Kim</td>
+            <td>Miller</td>
+            <td>612-558-4056</td>
+            <td>miller_time_94@gmail.com</td>
+            <td>xxxx xxxx xxxx 9889</td>
+            <td>901 Edmund Ave.</td>
+            <td>St. Paul</td>
+            <td>MN</td>
+            <td>55104</td>
+        </tr>
+        <tr>
+            <td>4</td>
+            <td>Troy</td>
+            <td>Jones</td>
+            <td>651-451-3022</td>
+            <td>troy.jones@hotmail.com</td>
+            <td>xxxx xxxx xxxx 3102</td>
+            <td>1675 James Ave. West</td>
+            <td>St. Paul</td>
+            <td>MN</td>
+            <td>55102</td>
+        </tr>
+      </table>
+      <br />
+      <table>
+        <caption>
+            PET
+        </caption>
+        <tr>
+          <th>petID</th>
+          <th>accountNumber</th>
+          <th>breedID</th>
+          <th>age</th>
+          <th>sex</th>
+          <th>weight</th>
+          <th>petName</th>
+        </tr>
+        <tr>
+          <td>1</td>
+          <td>1</td>
+          <td>1</td>
+          <td>7</td>
+          <td>F</td>
+          <td>10.4</td>
+          <td>Peaches</td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>2</td>
+            <td>2</td>
+            <td>4</td>
+            <td>M</td>
+            <td>120.3</td>
+            <td>Wilbur</td>
+        </tr>
+        <tr>
+            <td>4</td>
+            <td>3</td>
+            <td>5</td>
+            <td>5</td>
+            <td>F</td>
+            <td>1200</td>
+            <td>Shadow</td>
+        </tr>
+        <tr>
+            <td>5</td>
+            <td>4</td>
+            <td>3</td>
+            <td>1</td>
+            <td>M</td>
+            <td>9.7</td>
+            <td>Teddy</td>
+        </tr>
+      </table>
+      <br />
+      <table>
+        <caption>
+            BREED
+        </caption>
+        <tr>
+          <th>breedID</th>
+          <th>speciesID</th>
+          <th>breedName</th>
+          <th>information</th>
+        </tr>
+        <tr>
+          <td>1</td>
+          <td>1</td>
+          <td>American Shorthair</td>
+          <td>Breed of domestic cat. Life span is 15-20 years. Health issues include hop dysplasia and hypertrophic cardiomyopathy.</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>2</td>
+            <td>Irish Wolfhound</td>
+            <td>One of the largest dog breeds. Lifespan between 5-9 years. Health problems may include hip and elbow dysplasia, cardiomyopathy, osteosarcoma, liver shunt, gastric torsion</td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>2</td>
+            <td>Shichon</td>
+            <td>Cross between Shih Tzu and Bichon Frise dog breeds. Lifespan 12-16 years. </td>
+        </tr>
+        <tr>
+            <td>5</td>
+            <td>3</td>
+            <td>Arabian</td>
+            <td>Lifespan 25-30 years. Height between 14.1 and 15.1 hands.</td>   
+        </tr>
+      </table>
+      <br />
+      <table>
+        <caption>
+            SPECIES
+        </caption>
+        <tr>
+          <th>speciesID</th>
+          <th>speciesName</th>
+          <th>information</th>
+        </tr>
+        <tr>
+          <td>1</td>
+          <td>Cat</td>
+          <td>House cat. Typically live 15-20 years. Carnivourous diet.</td>
+        <tr>
+            <td>2</td>
+            <td>Dog</td>
+            <td>Domesticated decendent of wolves. Diet consists of meat, vegetables, fruit, and grains.</td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>Horse</td>
+            <td>Need UTD Coggins. Lifespan domesticated up to 40 years.</td>
+        </tr>
+      </table>
+      <br />
+      <table>
+        <caption>
+            PROCEDURE
+        </caption>
+        <tr>
+          <th>procedureID</th>
+          <th>procedureName</th>
+          <th>cost</th>
+          <th>information</th>
+        </tr>
+        <tr>
+          <td>1</td>
+          <td>Check-Up</td>
+          <td>$90</td>
+          <td>Annual exam</td>
+        </tr>
+        <tr>
+          <td>2</td>
+          <td>Microchip</td>
+          <td>$45</td>
+          <td>Injected under skin using a hypodermic needle.</td>
+        </tr>
+        <tr>
+          <td>3</td>
+          <td>Spring Vaccines</td>
+          <td>$118</td>
+          <td>West Nile, Eastern equine encephalomyelitis, Rabies</td>  
+        </tr>
+        <tr>
+            <td>4</td>
+            <td>Neuter</td>
+            <td>$160</td>
+            <td>Neuter of male dog</td>  
+        </tr>
+      </table>
+      <br /> 
+      <table>
+        <caption>
+            APPOINTMENT
+        </caption>
+        <tr>
+          <th>appointmentID</th>
+          <th>procedureID</th>
+          <th>petID</th>
+          <th>vetID</th>
+          <th>date</th>
+        </tr>
+        <tr>
+          <td>1</td>
+          <td>1</td>
+          <td>1</td>
+          <td>2</td>
+          <td>2/15/2023</td>
+        </tr>
+        <tr>
+          <td>4</td>
+          <td>2</td>
+          <td>3</td>
+          <td>1</td>
+          <td>1/8/2023</td>
+        </tr>
+        <tr>
+          <td>5</td>
+          <td>3</td>
+          <td>4</td>
+          <td>3</td>
+          <td>3/4/2023</td>   
+        </tr>
+        <tr>
+            <td>6</td>
+            <td>4</td>
+            <td>5</td>
+            <td>4</td> 
+            <td>6/5/2023</td>   
+        </tr>
+      </table>
+      <br />
+      <table>
+        <caption>
+            INVOICE
+        </caption>
+        <tr>
+          <th>invoiceID</th>
+          <th>appointmentID</th>
+          <th>subtotal</th>
+          <th>tax</th>
+        </tr>
+        <tr>
+          <td>1</td>
+          <td>1</td>
+          <td>$90</td>
+          <td>$6.30</td>
+        </tr>
+        <tr>
+          <td>2</td>
+          <td>4</td>
+          <td>$45</td>
+          <td>$3.15</td>
+        </tr>
+        <tr>
+          <td>3</td>
+          <td>5</td>
+          <td>$118</td>
+          <td>$8.26</td>  
+        </tr>
+        <tr>
+            <td>4</td>
+            <td>6</td>
+            <td>$160</td>
+            <td>$11.20</td> 
+        </tr>
+    </table>
+    <br /> 
+    <table>
+        <caption>
+            NOTES
+        </caption>
+        <tr>
+          <th>noteID</th>
+          <th>petID</th>
+          <th>vetID</th>
+          <th>dateCreated</th>
+          <th>content</th>
+        </tr>
+        <tr>
+          <td>1</td>
+          <td>1</td>
+          <td>2</td>
+          <td>2/15/2023</td>
+          <td>Peaches in good health. Recommend dental cleaning in 6 months.</td>
+        </tr>
+        <tr>
+          <td>2</td>
+          <td>3</td>
+          <td>1</td>
+          <td>1/8/2023</td>
+          <td>Microchip number 5988210567</td>
+        </tr>
+        <tr>
+          <td>3</td>
+          <td>4</td>
+          <td>3</td>
+          <td>3/4/2023</td>
+          <td>Shadow can get spooked easily. Be careful administering any medications or shots.</td>  
+        </tr>
+        <tr>
+            <td>4</td>
+            <td>5</td>
+            <td>4</td>
+            <td>6/5/2023</td> 
+            <td>Teddy is a sweetheart. No issues with neutering. He is projected to heal with no issues.</td>
+        </tr>
+    </table>
+    <br /> 
+    <table>
+        <caption>
+            VET
+        </caption>
+        <tr>
+          <th>vetID</th>
+          <th>fName</th>
+          <th>lName</th>
+        </tr>
+        <tr>
+          <td>1</td>
+          <td>Tim</td>
+          <td>Robbinson</td>
+        </tr>
+        <tr>
+          <td>2</td>
+          <td>Jackie</td>
+          <td>Smith</td>
+        </tr>
+        <tr>
+          <td>3</td>
+          <td>Sarah</td>
+          <td>Blighters</td>
+        </tr>
+        <tr>
+          <td>4</td>
+          <td>Ralph</td>
+          <td>Troggs</td>
+        </tr>
+      </table>
+    </br>
+    <table>
+        <caption>
+            TRAINED_ON
+        </caption>
+        <tr>
+          <th>vetID</th>
+          <th>procedureID</th>
+        </tr>
+        <tr>
+          <td>1</td>
+          <td>1</td>
+        </tr>
+        <tr>
+          <td>2</td>
+          <td>1</td>
+        </tr>
+        <tr>
+          <td>3</td>
+          <td>1</td>
+        </tr>
+        <tr>
+            <td>4</td>
+            <td>1</td>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>2</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>2</td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>2</td>
+        </tr>
+        <tr>
+            <td>4</td>
+            <td>2</td>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>3</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>3</td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>3</td>
+        </tr>
+        <tr>
+            <td>4</td>
+            <td>3</td>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>4</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>4</td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>4</td>
+        </tr>
+        <tr>
+            <td>4</td>
+            <td>4</td>
+        </tr>
+    </table>
+
+      
+    </main>
+  </body>
+</html>

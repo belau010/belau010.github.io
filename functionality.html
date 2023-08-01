@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="title-container">Vet Clinic Database</div>
+    <nav>
+      <a href="./index.html">ABOUT US</a>
+      <a>FUNCTIONALITY</a>
+      <a href="./data.html">DATA</a>
+    </nav>
+    <main>
+      This database will be used to keep track of clients and their pet(s),
+      appointments and procedures for those pets, billing for the appointments,
+      breed and species information, notes on individual pets, our vets, and
+      procedures each vet is trained on. The CLIENT_OWNER table takes in the
+      client's individual account number as the primary key. It also contains attributes on
+      the client's first and last name, their phone number, e-mail address,
+      credit card number on file, and their home address. The PET table has a
+      petID as the primary key for each pet. The account number for each pet is
+      the foreign key that is associated with the CLIENT_OWNER table. Each pet
+      is linked to their owner through the owner's account number. The PET table
+      also contains each a forgein key for each pet's breedID. This foreign key links to the BREED table. The PET table then contains attributes on each pet's age, sex, weight, and name. The BREED
+      table has a breedID as its primary key and a speciesID as its foreign key.
+      Each breed is associated to a species this way. The table also contains
+      the name of each breed and any information on the breed we want to
+      include. The SPECIES table has a speciesID as its primary key. As stated
+      above, each speciesID links itself to a breed in the BREED table. The
+      SPECIES table also contains attributes on the name of each species we have and any
+      relevant information on that species. The PROCEDURE table has a
+      procedureID as its primary key. It then contains the name of the procedure
+      and the cost of that procedure as well as any information deemed necessary
+      regarding the procedure. The APPOINTMENT table contains an appointmentID as its primary key and has a procedureID as well as a petID and a vetID as its foreign keys. This way, each pet's appointment is linked to that pet's ID as well as connecting each appointment to a specific procedure and a specific vet that is doing the procedure. It then contains an attribute for the date of each appointment. The INVOICE table deals with the billing for each client. It has an invoiceID as its primary key and an appointmentID as its foreign key. This foreign key will associate with the APPOINTMENT table. Through that table, we follow the petID to get the account number of the client linked to that petID. The INVOICE also includes attributes for the tax and subtotal of the appointment. Next we have the NOTES table. This table has a noteID as its primary key, as well as petID and vetID as both primary keys and foreign keys. Each note is linked to what pet it is about based on the petID and which vet wrote the note through the vetID. It then has the attributes on the date the note was created and the content of the note. The VET table has a vetID as its primary key. Each vet has their individual identification number. The table includes the first and last name of the vets as its attributes. Lastly, there is the TRAINED_ON table. This table lets us know which vet is trained to do which procedure for the clinic. In order to connect each vet to the procedure(s) they are trained on, this table contains the vetID and procedureID as both primary keys and foreign keys.  
+    </main>
+  </body>
+</html>
